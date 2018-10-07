@@ -1,0 +1,7 @@
+saha_2000Pa	/srv/scratch/annashch/hydrogels/saha_2000Pa/out/peak/macs2/overlap/optimal_set/saha_2000Pa_ppr.naive_overlap.filt.narrowPeak.gz
+atac_mamgland	/srv/scratch/annashch/hydrogels/atac_mamgland/out/peak/macs2/overlap/optimal_set/atac_mamgland_ppr.naive_overlap.filt.narrowPeak.gz
+100Pa_3D	/srv/scratch/annashch/hydrogels/100Pa_3D/out/peak/macs2/overlap/optimal_set/100Pa_3D_ppr.naive_overlap.filt.narrowPeak.gz
+2000Pa_3D	/srv/scratch/annashch/hydrogels/2000Pa_3D/out/peak/macs2/overlap/optimal_set/2000Pa_3D_ppr.naive_overlap.filt.narrowPeak.gz
+saha_100Pa	/srv/scratch/annashch/hydrogels/saha_100Pa/out/peak/macs2/overlap/optimal_set/saha_100Pa_ppr.naive_overlap.filt.narrowPeak.gz
+2D_TCPS	/srv/scratch/annashch/hydrogels/2D_TCPS/out/peak/macs2/overlap/optimal_set/2D_TCPS_ppr.naive_overlap.filt.narrowPeak.gz
+2D_soft	/srv/scratch/annashch/hydrogels/2D_soft/out/peak/macs2/overlap/optimal_set/2D_soft_ppr.naive_overlap.filt.narrowPeak.gz
