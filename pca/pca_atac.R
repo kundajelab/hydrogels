@@ -4,7 +4,7 @@ library(sva)
 library(limma)
 
 #read all data
-alldata=read.table('hydrogel.soft.stiff.saha.txt',header=TRUE,sep='\t')
+alldata=read.table('hydrogel.soft.stiff.saha.limma.txt',header=TRUE,sep='\t')
 rownames(alldata)=paste(alldata$Chrom,alldata$Start,alldata$End,sep='_')
 alldata$Chrom=NULL
 alldata$Start=NULL 
