@@ -1,0 +1,9 @@
+1. scanMotifsGenome.pl
+2. intersect peaks with motifs
+3. get_tagalign_ends.sh
+   contract_bed.py
+4. get_coverage.sh
+5. summarize_coverage.sh
+   average_across_position.py
+6. plot_footprint.R
+
