@@ -1,4 +1,0 @@
-
-# FIMO (Find Individual Motif Occurrences): Version 5.0.1 compiled on Aug  7 2018 at 21:56:19
-# The format of this file is described at http://meme-suite.org/doc/fimo-output-format.html.
-# /software/meme/5.0.1/bin/fimo --parse-genomic-coord --verbosity 1 --oc meme_chip_pc1.soft.stiff.highest.2/fimo_out_8 --bgfile meme_chip_pc1.soft.stiff.highest.2/background --motif ATAAA meme_chip_pc1.soft.stiff.highest.2/dreme_out/dreme.xml meme_chip_pc1.soft.stiff.highest.2/pc1.soft.stiff.highest.2.fa

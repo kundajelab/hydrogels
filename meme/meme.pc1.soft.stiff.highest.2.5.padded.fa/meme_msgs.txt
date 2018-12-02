@@ -1,0 +1,21 @@
+--------------------------------------------------------------------------
+[[40821,1],0]: A high-performance Open MPI point-to-point messaging module
+was unable to find any relevant network interfaces:
+
+Module: OpenFabrics (openib)
+  Host: surya
+
+Another transport will be used instead, although this may result in
+lower performance.
+--------------------------------------------------------------------------
+[surya:51703] *** Process received signal ***
+[surya:51703] Signal: Segmentation fault (11)
+[surya:51703] Signal code: Address not mapped (1)
+[surya:51703] Failing at address: 0x44000098
+[surya:51703] [ 0] /lib/x86_64-linux-gnu/libc.so.6(+0x354b0)[0x7f8bac9414b0]
+[surya:51703] [ 1] /usr/lib/libmpi.so.12(MPI_Comm_rank+0x3e)[0x7f8bad0352de]
+[surya:51703] [ 2] /software/meme/5.0.1/bin/meme[0x4290e3]
+[surya:51703] [ 3] /software/meme/5.0.1/bin/meme[0x4233cd]
+[surya:51703] [ 4] /lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xf0)[0x7f8bac92c830]
+[surya:51703] [ 5] /software/meme/5.0.1/bin/meme[0x4044e9]
+[surya:51703] *** End of error message ***

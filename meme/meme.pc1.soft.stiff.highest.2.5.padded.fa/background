@@ -1,0 +1,24 @@
+# 1-order Markov frequencies from file meme.pc1.soft.stiff.highest.2.5.padded.fa/pc1.soft.stiff.highest.2.5.padded.fa
+# seqs: 1548    min: 300    max: 300    avg: 300.0    sum: 464400    alph: DNA
+# order 0
+A 2.455e-01
+C 2.545e-01
+G 2.545e-01
+T 2.455e-01
+# order 1
+AA 6.216e-02
+AC 5.388e-02
+AG 7.850e-02
+AT 5.096e-02
+CA 8.127e-02
+CC 7.680e-02
+CG 1.791e-02
+CT 7.850e-02
+GA 6.137e-02
+GC 6.243e-02
+GG 7.680e-02
+GT 5.388e-02
+TA 4.071e-02
+TC 6.137e-02
+TG 8.127e-02
+TT 6.216e-02

@@ -1,0 +1,11 @@
+Query_ID	Target_ID	Optimal_offset	p-value	E-value	q-value	Overlap	Query_consensus	Target_consensus	Orientation
+1	1	0	6.33102e-07	3.79861e-06	7.59722e-06	6	AGGAAG	AGGAAG	+
+2	2	0	4.12176e-07	2.47305e-06	4.94611e-06	8	ATGAGTCA	ATGAGTCA	+
+3	3	0	4.2544e-05	0.000255264	0.000510528	5	CACAG	CACAG	+
+4	4	0	4.55828e-05	0.000273497	0.000546994	5	ACGTG	ACGTG	+
+5	5	0	1.72344e-06	1.03407e-05	2.06813e-05	7	GCTGGAG	GCTGGAG	+
+6	6	0	4.88387e-05	0.000293032	0.000586064	5	AGAAA	AGAAA	+
+
+# Tomtom (Motif Comparison Tool): Version 5.0.1 compiled on Aug  7 2018 at 21:56:33
+# The format of this file is described at http://meme-suite.org/doc/tomtom-output-format.html.
+# /software/meme/5.0.1/bin/tomtom -verbosity 1 -text -thresh 0.1 meme.pc1.soft.stiff.highest.2.5.padded.fa/combined.meme meme.pc1.soft.stiff.highest.2.5.padded.fa/combined.meme

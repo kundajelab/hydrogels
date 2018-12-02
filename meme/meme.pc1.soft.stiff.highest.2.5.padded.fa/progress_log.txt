@@ -1,0 +1,54 @@
+Invoking:
+  getsize meme.pc1.soft.stiff.highest.2.5.padded.fa/pc1.soft.stiff.highest.2.5.padded.fa 1> $metrics
+Finished invoke:
+  name: count_seqs  status: 0  time: 0.021707
+Invoking:
+  fasta-most -min 50 < meme.pc1.soft.stiff.highest.2.5.padded.fa/pc1.soft.stiff.highest.2.5.padded.fa 1> $metrics
+Finished invoke:
+  name: most_seqs  status: 0  time: 0.079605
+Invoking:
+  fasta-center -dna -len 100 < meme.pc1.soft.stiff.highest.2.5.padded.fa/pc1.soft.stiff.highest.2.5.padded.fa 1> meme.pc1.soft.stiff.highest.2.5.padded.fa/seqs-centered
+Finished invoke:
+  name: center_seqs  status: 0  time: 0.092671
+Invoking:
+  fasta-shuffle-letters meme.pc1.soft.stiff.highest.2.5.padded.fa/seqs-centered meme.pc1.soft.stiff.highest.2.5.padded.fa/seqs-shuffled -kmer 2 -tag -dinuc -dna -seed 1
+Finished invoke:
+  name: shuffle_seqs  status: 0  time: 0.018614
+Invoking:
+  fasta-get-markov -nostatus -nosummary -dna -m 1 meme.pc1.soft.stiff.highest.2.5.padded.fa/pc1.soft.stiff.highest.2.5.padded.fa meme.pc1.soft.stiff.highest.2.5.padded.fa/background
+Finished invoke:
+  name: bg  status: 0  time: 0.007445
+Invoking:
+  meme meme.pc1.soft.stiff.highest.2.5.padded.fa/seqs-centered -oc meme.pc1.soft.stiff.highest.2.5.padded.fa/meme_out -mod zoops -nmotifs 3 -minw 6 -maxw 30 -bfile meme.pc1.soft.stiff.highest.2.5.padded.fa/background -dna -revcomp -nostatus
+Finished invoke:
+  name: meme  status: 139  time: 0.582992
+Invoking:
+  dreme -verbosity 1 -oc meme.pc1.soft.stiff.highest.2.5.padded.fa/dreme_out -png -dna -p meme.pc1.soft.stiff.highest.2.5.padded.fa/seqs-centered -n meme.pc1.soft.stiff.highest.2.5.padded.fa/seqs-shuffled
+Finished invoke:
+  name: dreme  status: 0  time: 60.898858
+Invoking:
+  centrimo -seqlen 300 -verbosity 1 -oc meme.pc1.soft.stiff.highest.2.5.padded.fa/centrimo_out -bfile meme.pc1.soft.stiff.highest.2.5.padded.fa/background meme.pc1.soft.stiff.highest.2.5.padded.fa/pc1.soft.stiff.highest.2.5.padded.fa meme.pc1.soft.stiff.highest.2.5.padded.fa/dreme_out/dreme.xml /mnt/data/motif_databases/HUMAN/HOCOMOCOv11_full_HUMAN_mono_meme_format.meme
+Finished invoke:
+  name: centrimo  status: 0  time: 19.894858
+Invoking:
+  tomtom -verbosity 1 -oc meme.pc1.soft.stiff.highest.2.5.padded.fa/dreme_tomtom_out -min-overlap 5 -dist pearson -evalue -thresh 1 -no-ssc meme.pc1.soft.stiff.highest.2.5.padded.fa/dreme_out/dreme.xml /mnt/data/motif_databases/HUMAN/HOCOMOCOv11_full_HUMAN_mono_meme_format.meme
+Finished invoke:
+  name: dreme_tomtom  status: 0  time: 1.43419
+Invoking:
+  tomtom -verbosity 1 -text -thresh 0.1 meme.pc1.soft.stiff.highest.2.5.padded.fa/combined.meme meme.pc1.soft.stiff.highest.2.5.padded.fa/combined.meme 1> meme.pc1.soft.stiff.highest.2.5.padded.fa/motif_alignment.txt
+Finished invoke:
+  name: align  status: 0  time: 0.030299
+Invoking:
+  spamo -verbosity 1 -oc meme.pc1.soft.stiff.highest.2.5.padded.fa/spamo_out_1 -bgfile meme.pc1.soft.stiff.highest.2.5.padded.fa/background -keepprimary -primary RGGAAR meme.pc1.soft.stiff.highest.2.5.padded.fa/pc1.soft.stiff.highest.2.5.padded.fa meme.pc1.soft.stiff.highest.2.5.padded.fa/dreme_out/dreme.xml meme.pc1.soft.stiff.highest.2.5.padded.fa/dreme_out/dreme.xml /mnt/data/motif_databases/HUMAN/HOCOMOCOv11_full_HUMAN_mono_meme_format.meme
+Finished invoke:
+  name: spamo1  status: 0  time: 1.045937
+Invoking:
+  spamo -verbosity 1 -oc meme.pc1.soft.stiff.highest.2.5.padded.fa/spamo_out_2 -bgfile meme.pc1.soft.stiff.highest.2.5.padded.fa/background -keepprimary -primary ATGABTCA meme.pc1.soft.stiff.highest.2.5.padded.fa/pc1.soft.stiff.highest.2.5.padded.fa meme.pc1.soft.stiff.highest.2.5.padded.fa/dreme_out/dreme.xml meme.pc1.soft.stiff.highest.2.5.padded.fa/dreme_out/dreme.xml /mnt/data/motif_databases/HUMAN/HOCOMOCOv11_full_HUMAN_mono_meme_format.meme
+Finished invoke:
+  name: spamo2  status: 0  time: 1.036027
+Invoking:
+  spamo -verbosity 1 -oc meme.pc1.soft.stiff.highest.2.5.padded.fa/spamo_out_3 -bgfile meme.pc1.soft.stiff.highest.2.5.padded.fa/background -keepprimary -primary CACRG meme.pc1.soft.stiff.highest.2.5.padded.fa/pc1.soft.stiff.highest.2.5.padded.fa meme.pc1.soft.stiff.highest.2.5.padded.fa/dreme_out/dreme.xml meme.pc1.soft.stiff.highest.2.5.padded.fa/dreme_out/dreme.xml /mnt/data/motif_databases/HUMAN/HOCOMOCOv11_full_HUMAN_mono_meme_format.meme
+Finished invoke:
+  name: spamo3  status: 0  time: 0.975904
+Invoking:
+  spamo -verbosity 1 -oc meme.pc1.soft.stiff.highest.2.5.padded.fa/spamo_out_4 -bgfile meme.pc1.soft.stiff.highest.2.5.padded.fa/background -keepprimary -primary ACGTS meme.pc1.soft.stiff.highest.2.5.padded.fa/pc1.soft.stiff.highest.2.5.padded.fa meme.pc1.soft.stiff.highest.2.5.padded.fa/dreme_out/dreme.xml meme.pc1.soft.stiff.highest.2.5.padded.fa/dreme_out/dreme.xml /mnt/data/motif_databases/HUMAN/HOCOMOCOv11_full_HUMAN_mono_meme_format.meme
