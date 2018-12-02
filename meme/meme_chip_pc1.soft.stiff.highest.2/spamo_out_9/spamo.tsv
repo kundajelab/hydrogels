@@ -1,0 +1,18 @@
+prim_db	prim_id	prim_alt	prim_cons	sec_db	sec_id	sec_alt	sec_cons	trim_left	trim_right	red_db	red_id	red_alt	E-value	gap	orient	count	total	adj_p-value	p-value
+dreme.xml	CCACMTC	DREME-10	CCACCTC	dreme.xml	KCCCAGS	DREME-5	KCCCAGS	0	0	.	.	.	4.49e-03	13	3	7	248	3.85e-08	3.47e-07
+dreme.xml	CCACMTC	DREME-10	CCACCTC	dreme.xml	KCCCAGS	DREME-5	KCCCAGS	0	0	.	.	.	4.49e-03	13	8	10	248	1.31e-06	1.18e-05
+dreme.xml	CCACMTC	DREME-10	CCACCTC	dreme.xml	KCCCAGS	DREME-5	KCCCAGS	0	0	.	.	.	4.49e-03	13	5	7	248	3.43e-06	3.09e-05
+dreme.xml	CCACMTC	DREME-10	CCACCTC	dreme.xml	KCCCAGS	DREME-5	KCCCAGS	0	0	.	.	.	4.49e-03	13	7	7	248	3.43e-06	3.09e-05
+dreme.xml	CCACMTC	DREME-10	CCACCTC	dreme.xml	CTGTR	DREME-8	CTGTG	0	0	.	.	.	3.87e-01	21	3	7	498	3.33e-06	3.00e-05
+dreme.xml	CCACMTC	DREME-10	CCACCTC	dreme.xml	CACGB	DREME-3	CACGB	0	0	.	.	.	2.42e+00	37	2	5	307	3.03e-02	2.42e-01
+dreme.xml	CCACMTC	DREME-10	CCACCTC	dreme.xml	AAAYAMA	DREME-7	AAAYAMA	0	0	.	.	.	6.92e+00	67	6	3	54	1.23e-01	6.92e-01
+dreme.xml	CCACMTC	DREME-10	CCACCTC	dreme.xml	TGASTAA	DREME-6	TGASTAA	0	0	.	.	.	6.95e+00	16	4	2	13	1.24e-01	6.95e-01
+dreme.xml	CCACMTC	DREME-10	CCACCTC	dreme.xml	RGRAA	DREME-2	RGRAA	0	0	.	.	.	8.69e+00	83	1	7	961	2.02e-01	8.69e-01
+dreme.xml	CCACMTC	DREME-10	CCACCTC	dreme.xml	CCYGCCY	DREME-4	CCYGCCY	0	0	.	.	.	9.51e+00	89	2	4	313	2.85e-01	9.51e-01
+dreme.xml	CCACMTC	DREME-10	CCACCTC	dreme.xml	RTGABTCA	DREME-1	RTGABTCA	0	0	.	.	.	9.61e+00	1	0	2	42	3.02e-01	9.61e-01
+dreme.xml	CCACMTC	DREME-10	CCACCTC	dreme.xml	ATAAA	DREME-9	ATAAA	0	0	.	.	.	9.96e+00	38	4	3	94	4.64e-01	9.96e-01
+dreme.xml	CCACMTC	DREME-10	CCACCTC	dreme.xml	CCACMTC	DREME-10	CCACCTC	0	0	.	.	.	9.97e+00	6	0	2	57	4.78e-01	9.97e-01
+
+# SpaMo (Spaced Motif Analysis Tool): Version 5.0.1 compiled on Aug  7 2018 at 21:56:31
+# The format of this file is described at http://meme-suite.org/doc/spamo-output-format.html.
+# spamo -verbosity 1 -oc meme_chip_pc1.soft.stiff.highest.2/spamo_out_9 -bgfile meme_chip_pc1.soft.stiff.highest.2/background -keepprimary -primary CCACMTC meme_chip_pc1.soft.stiff.highest.2/pc1.soft.stiff.highest.2.fa meme_chip_pc1.soft.stiff.highest.2/dreme_out/dreme.xml meme_chip_pc1.soft.stiff.highest.2/dreme_out/dreme.xml

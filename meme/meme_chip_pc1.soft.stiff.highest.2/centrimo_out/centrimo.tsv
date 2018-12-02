@@ -1,0 +1,15 @@
+db_index	motif_id	motif_alt_id	consensus	E-value	adj_p-value	log_adj_p-value	bin_location	bin_width	total_width	sites_in_bin	total_sites	p_success	p-value	mult_tests
+   1	CTGTR	DREME-8	CTGTG	5.4e0	   5.4e-1	          -0.62	         0.0	    141.0	        237	          23	         28	  0.59494	6.5e-3	       118
+   1	KCCCAGS	DREME-5	KCCCAGS	5.7e0	   5.7e-1	          -0.56	         0.0	     89.0	        235	           8	          9	  0.37872	7.3e-3	       117
+   1	TGASTAA	DREME-6	TGASTAA	9.0e0	   9.0e-1	          -0.11	         0.0	    107.0	        235	           5	          5	  0.45532	2.0e-2	       117
+   1	RTGABTCA	DREME-1	RTGABTCA	1.0e1	   1.0e0	          -0.00	         0.0	    110.0	        234	           5	          6	  0.47009	8.4e-2	       116
+   1	CCYGCCY	DREME-4	CCYGCCY	1.0e1	   1.0e0	          -0.00	         0.0	     37.0	        235	           4	         10	  0.15745	1.1e-1	       117
+   1	RGRAA	DREME-2	RGRAA	1.0e1	   1.0e0	           0.00	         0.0	      1.0	        237	           1	         32	  0.00422	4.0e-1	       118
+   1	CACGB	DREME-3	CACGB	1.0e1	   1.0e0	           0.00	         0.0	      1.0	        237	           0	         14	  0.00422	1.0e0	       118
+   1	AAAYAMA	DREME-7	AAAYAMA	1.0e1	   1.0e0	           0.00	         0.0	      1.0	        235	           0	         10	  0.00426	1.0e0	       117
+   1	ATAAA	DREME-9	ATAAA	1.0e1	   1.0e0	           0.00	         0.0	      1.0	        237	           0	         15	  0.00422	1.0e0	       118
+   1	CCACMTC	DREME-10	CCACCTC	1.0e1	   1.0e0	           0.00	         0.0	      1.0	        235	           0	          2	  0.00426	1.0e0	       117
+
+# CentriMo (Local Motif Enrichment Analysis): Version 5.0.1 compiled on Aug  7 2018 at 21:56:17
+# The format of this file is described at http://meme-suite.org/doc/centrimo-output-format.html.
+# centrimo -seqlen 241 -verbosity 1 -oc meme_chip_pc1.soft.stiff.highest.2/centrimo_out -bfile meme_chip_pc1.soft.stiff.highest.2/background meme_chip_pc1.soft.stiff.highest.2/pc1.soft.stiff.highest.2.fa meme_chip_pc1.soft.stiff.highest.2/dreme_out/dreme.xml

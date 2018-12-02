@@ -1,0 +1,5 @@
+fastaFromBed -fi /mnt/data/annotations/by_release/hg19.GRCh37/hg19.genome.fa -bed pc1.soft.stiff.highest.2.bed -fo pc1.soft.stiff.highest.2.fa
+pc1.soft.stiff.highest.2.5.padded.bed
+pc1.soft.stiff.highest.2.padded.bed
+pc1.soft.stiff.highest.3.padded.bed
+pc1.soft.stiff.highest.4.padded.bed

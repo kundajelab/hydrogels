@@ -1,0 +1,17 @@
+Query_ID	Target_ID	Optimal_offset	p-value	E-value	q-value	Overlap	Query_consensus	Target_consensus	Orientation
+1	1	0	8.09778e-09	8.09778e-08	1.61956e-07	8	ATGACTCA	ATGACTCA	+
+1	6	-1	0.000767423	0.00767423	0.00383712	7	ATGACTCA	TGACTAA	+
+2	2	0	1.01001e-06	1.01001e-05	2.02003e-05	5	AGGAA	AGGAA	+
+3	3	0	1.81054e-05	0.000181054	0.000362107	5	CACGC	CACGC	+
+4	4	0	2.04432e-08	2.04432e-07	4.08865e-07	7	CCTGCCC	CCTGCCC	+
+5	5	0	2.50894e-08	2.50894e-07	5.01788e-07	7	GCCCAGG	GCCCAGG	+
+6	6	0	1.25221e-06	1.25221e-05	2.50442e-05	7	TGACTAA	TGACTAA	+
+6	1	1	0.00149704	0.0149704	0.00998029	7	TGACTAA	ATGACTCA	+
+7	7	0	5.69187e-08	5.69187e-07	1.13837e-06	7	AAACAAA	AAACAAA	+
+8	8	0	2.22202e-05	0.000222202	0.000444404	5	CTGTG	CTGTG	+
+9	9	0	0.000903437	0.00903437	0.0180687	5	ATAAA	ATAAA	+
+10	10	0	6.77414e-07	6.77414e-06	1.35483e-05	7	CCACCTC	CCACCTC	+
+
+# Tomtom (Motif Comparison Tool): Version 5.0.1 compiled on Aug  7 2018 at 21:56:33
+# The format of this file is described at http://meme-suite.org/doc/tomtom-output-format.html.
+# /software/meme/5.0.1/bin/tomtom -verbosity 1 -text -thresh 0.1 meme_chip_pc1.soft.stiff.highest.2/combined.meme meme_chip_pc1.soft.stiff.highest.2/combined.meme

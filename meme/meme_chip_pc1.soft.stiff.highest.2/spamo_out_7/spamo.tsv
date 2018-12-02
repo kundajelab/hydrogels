@@ -1,0 +1,17 @@
+prim_db	prim_id	prim_alt	prim_cons	sec_db	sec_id	sec_alt	sec_cons	trim_left	trim_right	red_db	red_id	red_alt	E-value	gap	orient	count	total	adj_p-value	p-value
+dreme.xml	CTGTR	DREME-8	CTGTG	dreme.xml	KCCCAGS	DREME-5	KCCCAGS	0	0	.	.	.	2.74e-04	1	2	13	947	2.35e-09	2.11e-08
+dreme.xml	CTGTR	DREME-8	CTGTG	dreme.xml	KCCCAGS	DREME-5	KCCCAGS	0	0	.	.	.	2.74e-04	1	6	16	947	4.22e-08	3.80e-07
+dreme.xml	CTGTR	DREME-8	CTGTG	dreme.xml	KCCCAGS	DREME-5	KCCCAGS	0	0	.	.	.	2.74e-04	1	7	13	947	4.34e-06	3.91e-05
+dreme.xml	CTGTR	DREME-8	CTGTG	dreme.xml	CTGTR	DREME-8	CTGTG	0	0	.	.	.	1.52e+00	74	0	14	2457	1.82e-02	1.52e-01
+dreme.xml	CTGTR	DREME-8	CTGTG	dreme.xml	ATAAA	DREME-9	ATAAA	0	0	.	.	.	2.91e+00	46	2	7	708	3.75e-02	2.91e-01
+dreme.xml	CTGTR	DREME-8	CTGTG	dreme.xml	CCACMTC	DREME-10	CCACCTC	0	0	.	.	.	4.42e+00	101	7	6	275	6.28e-02	4.42e-01
+dreme.xml	CTGTR	DREME-8	CTGTG	dreme.xml	RGRAA	DREME-2	RGRAA	0	0	.	.	.	8.50e+00	134	2	20	5405	1.90e-01	8.50e-01
+dreme.xml	CTGTR	DREME-8	CTGTG	dreme.xml	RTGABTCA	DREME-1	RTGABTCA	0	0	.	.	.	8.67e+00	127	6	5	236	2.01e-01	8.67e-01
+dreme.xml	CTGTR	DREME-8	CTGTG	dreme.xml	CACGB	DREME-3	CACGB	0	0	.	.	.	9.50e+00	33	1	8	1317	2.82e-01	9.50e-01
+dreme.xml	CTGTR	DREME-8	CTGTG	dreme.xml	AAAYAMA	DREME-7	AAAYAMA	0	0	.	.	.	9.98e+00	22	5	6	442	5.04e-01	9.98e-01
+dreme.xml	CTGTR	DREME-8	CTGTG	dreme.xml	CCYGCCY	DREME-4	CCYGCCY	0	0	.	.	.	9.99e+00	36	6	9	910	5.27e-01	9.99e-01
+dreme.xml	CTGTR	DREME-8	CTGTG	dreme.xml	TGASTAA	DREME-6	TGASTAA	0	0	.	.	.	1.00e+01	35	7	3	118	6.98e-01	1.00e+00
+
+# SpaMo (Spaced Motif Analysis Tool): Version 5.0.1 compiled on Aug  7 2018 at 21:56:31
+# The format of this file is described at http://meme-suite.org/doc/spamo-output-format.html.
+# spamo -verbosity 1 -oc meme_chip_pc1.soft.stiff.highest.2/spamo_out_7 -bgfile meme_chip_pc1.soft.stiff.highest.2/background -keepprimary -primary CTGTR meme_chip_pc1.soft.stiff.highest.2/pc1.soft.stiff.highest.2.fa meme_chip_pc1.soft.stiff.highest.2/dreme_out/dreme.xml meme_chip_pc1.soft.stiff.highest.2/dreme_out/dreme.xml
